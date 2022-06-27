@@ -9,5 +9,5 @@
 	"difficulty": "intermediate",
 	"syntax": "python",
 	"duration" : 2,
-	"description" : "Logistic Regression is the ideal first algorithm to learn how to model. Without doing much cleaning, traing your model and optimize until you are satified with your evaluation and results."
+	"description" : "Logistic Regression is the ideal first algorithm to learn how to model. Without doing much cleaning, train your model and optimize until you are satified with your evaluation and results."
 }
