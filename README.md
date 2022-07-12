@@ -157,3 +157,5 @@ Time to build your model!
 7. In your README file write a brief summary.
 
 8. Deliver your repo link.
+
+Solutuon guide: https://github.com/4GeeksAcademy/logistic-regression-project-tutorial/blob/main/cleaning-solution.ipynb
