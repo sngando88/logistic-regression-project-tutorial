@@ -61,27 +61,27 @@ If you don't remember how to deal with imbalanced datasets, you can go to your s
 
 Meaning of each attribute:
 
-1. Age (numerical)
+1. Age (numerical).
 
-2. Job: Type of Job (categorical)
+2. Job: Type of Job (categorical).
 
-3. Marital: marital status (categorical)
+3. Marital: marital status (categorical).
 
-4. Education: (categorical)
+4. Education: (categorical).
 
-5. Default: has credit in default? (categorical)
+5. Default: has credit in default? (categorical).
 
-6. Housing: has housing loan? (categorical)
+6. Housing: has a housing loan? (categorical).
 
-7. Loan: has personal loan? (categorical)
+7. Loan: has a personal loan? (categorical).
 
-8. contact: contact communication type (categorcial)
+8. Contact: contact communication type (categorical).
 
-9. month: last contact month of year (categorical)
+9. Month: last contact month of the year (categorical).
 
-10. day_of_week: last contact day of the week (categorical)
+10. day_of_week: last contact day of the week (categorical).
 
-11. duration: last contact duration, in seconds (numerical)
+11. Duration: last contact duration, in seconds (numerical).
 
 Important note: this output highly affects the output target (if duration = 0, then y = 'no'). Yet, the duration is not known  before a call is performed. Also, after the end of the call, y is obviously known. Consider if you should include it or not for a realistic predictive model.
 
