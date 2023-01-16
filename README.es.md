@@ -1,5 +1,5 @@
 <!-- hide -->
-# Logistic Regression Project Tutorial
+# Ejercicio y tutorial de regresión logística
 <!-- endhide -->
 
 - Comprender tus datos.
