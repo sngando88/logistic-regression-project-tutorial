@@ -9,11 +9,11 @@
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read this instructions:
+You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repostiroy on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening you start your project following the Instructions below.
+2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
+3. Once Gitpod VSCode has finished opening, you start your project following the Instructions below.
 
 ## 🚛 How to deliver this project
 
@@ -29,9 +29,9 @@ Term deposits allow banks to hold money for an specific amount of time, which al
 
 Problem Description:
 
-Portuguese bank is having a decrease in its revenue so they want to be able to identify existing clients that have a higher chance to subscribe a term deposit. This will allow the bank to focus marketing efforts on those clients and avoid wasting money and time on clients that will probably not subscribe, as they want to increase their revenue.
+Portuguese bank is having a decrease in its revenue, so they want to be able to identify existing clients that have a higher chance to subscribe to a term deposit. This will allow the bank to focus marketing efforts on those clients and avoid wasting money and time on clients that will probably not subscribe, as they want to increase their revenue.
 
-To approach this problem we will create a classification algorithm that helps predict if a client will subscribe or not a term deposit.
+To approach this problem, we will create a classification algorithm that helps predict if a client will subscribe or not to a term deposit.
 
 
 **Step 1:**
@@ -39,7 +39,7 @@ To approach this problem we will create a classification algorithm that helps pr
 The dataset can be found in this project folder as 'bank-marketing-campaign-data.csv' file. You are welcome to load it directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv`), or to download it and add it to your data/raw folder. In that case, don't forget to add the data folder to the .gitignore file.
 
 Only a labeled dataset has been provided because we want you to practice your modeling skills. 
-There is no need for you to make the predictions as no test set has been provided, however make sure to divide your data in train and validation sets to evaluate your model performance, because the bank would request a reliable model for them to use it.
+There is no need for you to make the predictions as no test set has been provided, however, make sure to divide your data in train and validation sets to evaluate your model performance, because the bank would request a reliable model for them to use it.
 
 This time we want you to focus on the modeling and optimization part, so we will give you some hints for the cleaning process.
 
@@ -53,9 +53,9 @@ Is your data balanced or imbalanced?
 
 You can use a barplot to visualize your target variable in order to verify if it is balanced or not.
 
-If you don't remember how to deal with imbalanced datasets, you can go to your statistics class and look for the tips on the specific paragraph of imbalanced datasets: https://github.com/4GeeksAcademy/machine-learning-content/blob/master/02-6d-stats/hypothesis-testing.ipynb 
+If you don't remember how to deal with imbalanced datasets, you can go to your statistics class and look for the tips in the specific paragraph of imbalanced datasets: https://github.com/4GeeksAcademy/machine-learning-content/blob/master/02-6d-stats/hypothesis-testing.ipynb 
 
->Hint: Choose your evaluation metric correctly if your data is imbalanced. 
+> Hint: Choose your evaluation metric correctly if your data is imbalanced. 
 
 **Step 3:**
 
@@ -83,17 +83,17 @@ Meaning of each attribute:
 
 11. Duration: last contact duration, in seconds (numerical).
 
-Important note: this output highly affects the output target (if duration = 0, then y = 'no'). Yet, the duration is not known  before a call is performed. Also, after the end of the call, y is obviously known. Consider if you should include it or not for a realistic predictive model.
+Important note: this output highly affects the output target (if duration = 0, then y = 'no'). Yet, the duration is not known before a call is performed. Also, after the end of the call, y is obviously known. Consider if you should include it or not for a realistic predictive model.
 
 12. campaign: number of contacts performed during this campaign and for this client (numerical)
 
-13. pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
+13. pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means the client was not previously contacted)
 
 14. previous: number of contacts performed  before this campaign and for this client (numerical)
 
 15. poutcome: outcome of the previous marketing campaign (categorical)
 
-Important note: this attribute has three categories: 'failure', 'success' and 'non-existent'. 86% of the data falls into 'non-existent' category.
+Important note: this attribute has three categories: 'failure', 'success' and 'non-existent'. 86% of the data falls into the 'non-existent' category.
 
 16. emp.var.rate: employment variation rate - quarterly indicator (numeric)
 
@@ -107,16 +107,16 @@ Important note: this attribute has three categories: 'failure', 'success' and 'n
 
 Target variable: 
 
-21. y: has the client subscribed a term deposit?   
+21. y: has the client subscribed to a term deposit?   
 
 
-Hint for the Cleaning process:
+Hint for the cleaning process:
 
 1. The dataset has no null values, but make sure to drop any duplicated rows.
 
-2. There are some features that include an unknown values.
+2. There are some features that include unknown values.
 
-- In the categoircal features, replace the unknown category with the most frequent value. 
+- In the categorical features, replace the unknown category with the most frequent value. 
 
 - In the numerical features, replace the unknown values with the mean.
 
@@ -130,7 +130,7 @@ Hint for the Cleaning process:
 
 5. Insert categories 'basic.9y','basic.6y','basic4y' into 'middle_school'
 
-6. Convert target variable into binary
+6. Convert the target variable into binary
 
 7. Encode categorical features
 
@@ -158,4 +158,4 @@ Time to build your model!
 
 8. Deliver your repo link.
 
-Solutuon guide: https://github.com/4GeeksAcademy/logistic-regression-project-tutorial/blob/main/cleaning-solution.ipynb
+Solution guide: https://github.com/4GeeksAcademy/logistic-regression-project-tutorial/blob/main/cleaning-solution.ipynb

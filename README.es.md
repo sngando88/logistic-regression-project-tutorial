@@ -17,7 +17,7 @@ Esta vez no se hará Fork, tómate un tiempo para leer estas instrucciones:
 
 ## 🚛 Cómo entregar este proyecto
 
-Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar tus cambios, hazle "push" a el fork de tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
+Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar tus cambios, hazle "push" al fork de tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
 
 ## 📝 Instrucciones
 
@@ -39,7 +39,7 @@ El conjunto de datos se puede encontrar en esta carpeta de proyecto como archivo
 
 Solo se ha proporcionado un conjunto de datos etiquetado porque queremos que practiques tus habilidades de modelado.
 
-No es necesario que hagas predicciones ya que no se ha proporcionado ningún conjunto de prueba, sin embargo, asegúrate de dividir tus datos en conjuntos de entrenamiento y validación para evaluar el rendimiento de tu modelo, ya que el banco solicitaría un modelo confiable para que lo usen.
+No es necesario que hagas predicciones, ya que no se ha proporcionado ningún conjunto de prueba, sin embargo, asegúrate de dividir tus datos en conjuntos de entrenamiento y validación para evaluar el rendimiento de tu modelo, porque el banco solicitaría un modelo confiable para que lo usen.
 
 En esta ocasión queremos que te centres en la parte de modelado y optimización, por lo que te daremos algunas pistas para el proceso de limpieza.
 
