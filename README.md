@@ -13,8 +13,8 @@
 You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening, you start your project following the Instructions below.
+2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
@@ -60,11 +60,11 @@ The dataset can be found in this project folder under the name `bank-marketing-c
 20. nr.employed. Number of employees. Quarterly indicator (numeric)
 21. y. TARGET. Whether the customer takes out a long-term deposit or not
 
-Be sure to conveniently divide the data set into `train` and `test` as we have seen in previous lessons.
-
 #### Step 2: Perform a full EDA
 
 This second step is vital to ensure that we keep the variables that are strictly necessary and eliminate those that are not relevant or do not provide information. Use the example Notebook we worked on and adapt it to this use case.
+
+Be sure to conveniently divide the data set into `train` and `test` as we have seen in previous lessons.
 
 #### Step 3: Build a logistic regression model
 

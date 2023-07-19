@@ -12,8 +12,8 @@
 Esta vez no se hará Fork, tómate un tiempo para leer estas instrucciones:
 
 1. Crear un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Abre el repositorio creado recientemente en Gitpod usando la [extensión del botón de Gitpod](https://www.gitpod.io/docs/browser-extension/).
-3. Una vez que Gitpod VSCode haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
+2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 
 ## 🚛 Cómo entregar este proyecto
 
@@ -59,11 +59,11 @@ El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nomb
 20. nr.employed. Número de empleados. Indicador trimestral (numérico)
 21. y. TARGET. El cliente contrata un depósito a largo plazo o no.
 
-Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` como hemos visto en lecciones anteriores.
-
 #### Paso 2: Realiza un EDA completo
 
 Este segundo paso es vital para asegurar que nos quedamos con las variables estrictamente necesarias y eliminamos las que no son relevantes o no aportan información. Utiliza el Notebook de ejemplo que trabajamos y adáptalo a este caso de uso.
+
+Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` como hemos visto en lecciones anteriores.
 
 #### Paso 3: Construye un modelo de regresión logística
 
