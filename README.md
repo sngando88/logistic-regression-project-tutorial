@@ -1,5 +1,5 @@
 <!-- hide -->
-# Logistic regression
+# Logistic regression - Step by step guide
 <!-- endhide -->
 
 - Understand a new dataset.
@@ -10,7 +10,7 @@
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read these instructions:
+Follow the instructions below:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
 2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
@@ -18,7 +18,7 @@ You will not be forking this time, please take some time to read these instructi
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your logistic regression model, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
@@ -38,27 +38,27 @@ To address this problem we will create a ranking algorithm to help predict wheth
 
 The dataset can be found in this project folder under the name `bank-marketing-campaign-data.csv`. You can load it into the code directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv`) or download it and add it by hand in your repository. In this dataset you will find the following variables:
 
-1. age. Age of customer (numeric)
-2. job. Type of job (categorical)
-3. marital. Marital status (categorical)
-4. education. Level of education (categorical)
-5. default. do you currently have credit (categorical) 6. housing.
-6. housing. do you have a housing loan (categorical) 7. loan.
-7. loan. Do you have a personal loan? (categorical)
-8. contact. Type of contact communication (categorical)
-9. month. Last month in which you have been contacted (categorical)
-10. day_of_week. Last day on which you have been contacted (categorical)
-11. duration. Duration of previous contact in seconds (numeric)
-12. campaign. Number of contacts made during this campaign to the customer (numeric)
-13. pdays. Number of days that elapsed since the last campaign until the customer was contacted (numeric)
-14. previous. Number of contacts made during the previous campaign to the customer (numeric)
-15. poutcome. Result of the previous marketing campaign (categorical).
-16. emp.var.rate. Employment variation rate. Quarterly indicator (numeric)
-17. cons.price.idx. Consumer price index. Monthly indicator (numeric)
-18. cons.conf.idx. Consumer confidence index. Monthly indicator (numeric)
-19. euribor3m. EURIBOR 3-month rate. Daily indicator (numeric)
-20. nr.employed. Number of employees. Quarterly indicator (numeric)
-21. y. TARGET. Whether the customer takes out a long-term deposit or not
+1. `age`. Age of customer (numeric)
+2. `job`. Type of job (categorical)
+3. `marital`. Marital status (categorical)
+4. `education`. Level of education (categorical)
+5. `default`. do you currently have credit (categorical) 6. housing.
+6. `housing`. do you have a housing loan (categorical) 7. loan.
+7. `loan`. Do you have a personal loan? (categorical)
+8. `contact`. Type of contact communication (categorical)
+9. `month`. Last month in which you have been contacted (categorical)
+10. `day_of_week`. Last day on which you have been contacted (categorical)
+11. `duration`. Duration of previous contact in seconds (numeric)
+12. `campaign`. Number of contacts made during this campaign to the customer (numeric)
+13. `pdays`. Number of days that elapsed since the last campaign until the customer was contacted (numeric)
+14. `previous`. Number of contacts made during the previous campaign to the customer (numeric)
+15. `poutcome`. Result of the previous marketing campaign (categorical).
+16. `emp.var.rate`. Employment variation rate. Quarterly indicator (numeric)
+17. `cons.price.idx`. Consumer price index. Monthly indicator (numeric)
+18. `cons.conf.idx`. Consumer confidence index. Monthly indicator (numeric)
+19. `euribor3m`. EURIBOR 3-month rate. Daily indicator (numeric)
+20. `nr.employed`. Number of employees. Quarterly indicator (numeric)
+21. `y`. TARGET. Whether the customer takes out a long-term deposit or not
 
 #### Step 2: Perform a full EDA
 
@@ -74,4 +74,4 @@ You do not need to optimize the hyperparameters. Start by using a default defini
 
 After training the model, if the results are not satisfactory, optimize it using one of the techniques seen above.
 
-> Solution under construction
+> NOTE: Solution: https://github.com/4GeeksAcademy/logistic-regression-project-tutorial/blob/main/solution.ipynb

@@ -1,5 +1,5 @@
 <!-- hide -->
-# Regresión logística
+# Regresión logística - Guía paso a paso
 <!-- endhide -->
 
 - Comprender un dataset nuevo.
@@ -9,21 +9,21 @@
 
 ## 🌱  Cómo iniciar este proyecto
 
-Esta vez no se hará Fork, tómate un tiempo para leer estas instrucciones:
+Sigue las siguientes instrucciones:
 
-1. Crear un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
+1. Crea un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
 2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 
 ## 🚛 Cómo entregar este proyecto
 
-Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar tus cambios, hazle "push" al fork de tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
+Una vez que hayas terminado de resolver el caso práctico, asegúrate de confirmar tus cambios, haz push a tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
 
 ## 📝 Instrucciones
 
 ### Campaña de Marketing Bancario
 
-**Comprensión Empresarial**
+**Comprensión empresarial**
 
 Los depósitos a largo plazo permiten a los bancos retener dinero durante un período de tiempo específico, lo que permite al banco utilizar ese dinero para mejorar sus inversiones. Las campañas de marketing de este producto se basan en llamadas telefónicas. Si un usuario no se encuentra disponible en un momento dado, entonces se le volverá a llamar de nuevo en otro momento.
 
@@ -37,27 +37,27 @@ Para abordar este problema crearemos un algoritmo de clasificación que ayude a 
 
 El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `bank-marketing-campaign-data.csv`. Puedes cargarlo en el código directamente desde el enlace (`https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv`) o descargarlo y añadirlo a mano en tu repositorio. En este conjunto de datos encontrarás las siguientes variables:
 
-1. age. Edad del cliente (numérico)
-2. job. Tipo de trabajo (categórico)
-3. marital. Estado civil (categórico)
-4. education. Nivel de educación (categórico)
-5. default. ¿Tiene crédito actualmente? (categórico)
-6. housing. ¿Tiene un préstamo de vivienda? (categórico)
-7. loan. ¿Tiene un préstamo personal? (categórico)
-8. contact. Tipo de comunicación de contacto (categórico)
-9. month. Último mes en el que se le ha contactado (categórico)
-10. day_of_week. Último día en el que se le ha contactado (categórico)
-11. duration. Duración del contacto previo en segundos (numérico)
-12. campaign. Número de contactos realizados durante esta campaña al cliente (numérico)
-13. pdays. Número de días que transcurrieron desde la última campaña hasta que fue contactado (numérico)
-14. previous. Número de contactos realizados durante la campaña anterior al cliente (numérico)
-15. poutcome. Resultado de la campaña de marketing anterior (categórico)
-16. emp.var.rate. Tasa de variación del empleo. Indicador trimestral (numérico)
-17. cons.price.idx. Índice de precios al consumidor. Indicador mensual (numérico)
-18. cons.conf.idx. Índice de confianza del consumidor. Indicador mensual (numérico)
-19. euribor3m. Tasa EURIBOR 3 meses. Indicador diario (numérico)
-20. nr.employed. Número de empleados. Indicador trimestral (numérico)
-21. y. TARGET. El cliente contrata un depósito a largo plazo o no.
+1. `age`. Edad del cliente (numérico)
+2. `job`. Tipo de trabajo (categórico)
+3. `marital`. Estado civil (categórico)
+4. `education`. Nivel de educación (categórico)
+5. `default`. ¿Tiene crédito actualmente? (categórico)
+6. `housing`. ¿Tiene un préstamo de vivienda? (categórico)
+7. `loan`. ¿Tiene un préstamo personal? (categórico)
+8. `contact`. Tipo de comunicación de contacto (categórico)
+9. `month`. Último mes en el que se le ha contactado (categórico)
+10. `day_of_week`. Último día en el que se le ha contactado (categórico)
+11. `duration`. Duración del contacto previo en segundos (numérico)
+12. `campaign`. Número de contactos realizados durante esta campaña al cliente (numérico)
+13. `pdays`. Número de días que transcurrieron desde la última campaña hasta que fue contactado (numérico)
+14. `previous`. Número de contactos realizados durante la campaña anterior al cliente (numérico)
+15. `poutcome`. Resultado de la campaña de marketing anterior (categórico)
+16. `emp.var.rate`. Tasa de variación del empleo. Indicador trimestral (numérico)
+17. `cons.price.idx`. Índice de precios al consumidor. Indicador mensual (numérico)
+18. `cons.conf.idx`. Índice de confianza del consumidor. Indicador mensual (numérico)
+19. `euribor3m`. Tasa EURIBOR 3 meses. Indicador diario (numérico)
+20. `nr.employed`. Número de empleados. Indicador trimestral (numérico)
+21. `y`. TARGET. El cliente contrata un depósito a largo plazo o no.
 
 #### Paso 2: Realiza un EDA completo
 
@@ -73,4 +73,4 @@ No es necesario que optimices los hiperparámetros. Comienza utilizando una defi
 
 Después de entrenar el modelo, si los resultados no son satisfactorios, optimízalo empleando alguna de las técnicas vistas anteriormente.
 
-> Solución en construcción
+> NOTA: Solución: https://github.com/4GeeksAcademy/logistic-regression-project-tutorial/blob/main/solution.ipynb
