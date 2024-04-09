@@ -7,28 +7,27 @@
 - Model the data using logistic regression.
 - Analyze the results and optimize the model.
 
-
-## 🌱  How to start this project
+## 🌱 How to start this project
 
 Follow the instructions below:
 
-1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
+1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template/generate).
 2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
-Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you have finished solving the exercises, be sure to commit your changes, push them to your repository, and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
 ### Banking Marketing Campaign
 
-**Business Insight
+**Business Insight**
 
 Long-term deposits allow banks to hold money for a specific period of time, allowing the bank to use that money to enhance its investments. Marketing campaigns for this product are based on phone calls. If a user is not available at a given time, then they will be called back at another time.
 
-**Description of the problem
+**Description of the problem**
 
 The Portuguese bank is experiencing a decline in revenue, so they want to be able to identify existing customers who are more likely to take out a long-term deposit. This will allow the bank to focus their marketing efforts on those customers and avoid wasting money and time on customers who are unlikely to sign up.
 
@@ -36,14 +35,20 @@ To address this problem we will create a ranking algorithm to help predict wheth
 
 #### Step 1: Loading the dataset
 
-The dataset can be found in this project folder under the name `bank-marketing-campaign-data.csv`. You can load it into the code directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv`) or download it and add it by hand in your repository. In this dataset you will find the following variables:
+The dataset can be found in this project folder under the name `bank-marketing-campaign-data.csv`, and you can load it into the code directly from this link:
+
+```text
+https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv
+```
+
+Or download it, and add it by hand in your repository. In this dataset, you will find the following variables:
 
 1. `age`. Age of customer (numeric)
 2. `job`. Type of job (categorical)
 3. `marital`. Marital status (categorical)
 4. `education`. Level of education (categorical)
-5. `default`. do you currently have credit (categorical) 6. housing.
-6. `housing`. do you have a housing loan (categorical) 7. loan.
+5. `default`. Do you currently have credit (categorical)
+6. `housing`. Do you have a housing loan (categorical)
 7. `loan`. Do you have a personal loan? (categorical)
 8. `contact`. Type of contact communication (categorical)
 9. `month`. Last month in which you have been contacted (categorical)
@@ -52,13 +57,13 @@ The dataset can be found in this project folder under the name `bank-marketing-c
 12. `campaign`. Number of contacts made during this campaign to the customer (numeric)
 13. `pdays`. Number of days that elapsed since the last campaign until the customer was contacted (numeric)
 14. `previous`. Number of contacts made during the previous campaign to the customer (numeric)
-15. `poutcome`. Result of the previous marketing campaign (categorical).
+15. `poutcome`. Result of the previous marketing campaign (categorical)
 16. `emp.var.rate`. Employment variation rate. Quarterly indicator (numeric)
 17. `cons.price.idx`. Consumer price index. Monthly indicator (numeric)
 18. `cons.conf.idx`. Consumer confidence index. Monthly indicator (numeric)
 19. `euribor3m`. EURIBOR 3-month rate. Daily indicator (numeric)
 20. `nr.employed`. Number of employees. Quarterly indicator (numeric)
-21. `y`. TARGET. Whether the customer takes out a long-term deposit or not
+21. `y`. TARGET. Whether the customer takes out a long-term deposit or not (categorical)
 
 #### Step 2: Perform a full EDA
 
@@ -74,4 +79,4 @@ You do not need to optimize the hyperparameters. Start by using a default defini
 
 After training the model, if the results are not satisfactory, optimize it using one of the techniques seen above.
 
-> NOTE: Solution: https://github.com/4GeeksAcademy/logistic-regression-project-tutorial/blob/main/solution.ipynb
+> Note: We also incorporated the solution samples on `./solution.ipynb` that we strongly suggest you only use if you are stuck for more than 30 min or if you have already finished and want to compare it with your approach.
