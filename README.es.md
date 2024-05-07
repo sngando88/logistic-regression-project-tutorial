@@ -7,13 +7,13 @@
 - Modelar los datos utilizando la regresión logística.
 - Analizar los resultados y optimizar el modelo.
 
-## 🌱  Cómo iniciar este proyecto
+## 🌱 Cómo iniciar este proyecto
 
 Sigue las siguientes instrucciones:
 
-1. Crea un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
-3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
+1. Crea un nuevo repositorio basado en el [proyecto de Machine Learning](https://github.com/4GeeksAcademy/machine-learning-python-template) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template/generate).
+2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/es/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Una vez que el VSCode en Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 
 ## 🚛 Cómo entregar este proyecto
 
@@ -31,11 +31,17 @@ Los depósitos a largo plazo permiten a los bancos retener dinero durante un per
 
 El banco portugués está teniendo una disminución en sus ingresos, por lo que quieren poder identificar a los clientes existentes que tienen una mayor probabilidad de contratar un depósito a largo plazo. Esto permitirá que el banco centre sus esfuerzos de marketing en esos clientes y evitará perder dinero y tiempo en clientes que probablemente no se suscribirán.
 
-Para abordar este problema crearemos un algoritmo de clasificación que ayude a predecir si un cliente contrará o no un depósito a largo plazo.
+Para abordar este problema crearemos un algoritmo de clasificación que ayude a predecir si un cliente contratará o no un depósito a largo plazo.
 
 #### Paso 1: Carga del conjunto de datos
 
-El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `bank-marketing-campaign-data.csv`. Puedes cargarlo en el código directamente desde el enlace (`https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv`) o descargarlo y añadirlo a mano en tu repositorio. En este conjunto de datos encontrarás las siguientes variables:
+El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `bank-marketing-campaign-data.csv`, y puedes cargarlo en el código directamente desde el siguiente enlace:
+
+```text
+https://raw.githubusercontent.com/4GeeksAcademy/logistic-regression-project-tutorial/main/bank-marketing-campaign-data.csv
+```
+
+O descargarlo y añadirlo a mano en tu repositorio. En este conjunto de datos encontrarás las siguientes variables:
 
 1. `age`. Edad del cliente (numérico)
 2. `job`. Tipo de trabajo (categórico)
@@ -57,7 +63,7 @@ El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nomb
 18. `cons.conf.idx`. Índice de confianza del consumidor. Indicador mensual (numérico)
 19. `euribor3m`. Tasa EURIBOR 3 meses. Indicador diario (numérico)
 20. `nr.employed`. Número de empleados. Indicador trimestral (numérico)
-21. `y`. TARGET. El cliente contrata un depósito a largo plazo o no.
+21. `y`. TARGET. El cliente contrata un depósito a largo plazo o no (categórico)
 
 #### Paso 2: Realiza un EDA completo
 
@@ -73,4 +79,4 @@ No es necesario que optimices los hiperparámetros. Comienza utilizando una defi
 
 Después de entrenar el modelo, si los resultados no son satisfactorios, optimízalo empleando alguna de las técnicas vistas anteriormente.
 
-> NOTA: Solución: https://github.com/4GeeksAcademy/logistic-regression-project-tutorial/blob/main/solution.ipynb
+> Nota: También incorporamos muestras de solución en `./solution.ipynb` que te sugerimos honestamente que solo uses si estás atascado por más de 30 minutos o si ya has terminado y quieres compararlo con tu enfoque.
